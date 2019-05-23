@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base", "prettier"],
+  "rules": {
+    "max-len": ["error", 120, {
+      "ignoreComments": true
+    }],
+    "valid-jsdoc": ["error", {
+      "requireReturn": false
+    }],
+    "require-jsdoc": "warn"
+  }
+}

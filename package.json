@@ -25,7 +25,8 @@
   },
   "scripts": {
     "lint": "eslint . --ext .js",
-    "start": "babel-node src/index.js"
+    "start": "babel-node src/index.js",
+    "start-watch": "nodemon --exec babel-node src/index.js"
   },
   "husky": {
     "hooks": {

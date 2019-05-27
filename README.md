@@ -16,6 +16,12 @@ yarn add --dev eslint babel-eslint eslint-config-airbnb-base eslint-plugin-impor
 yarn add commander
 ```
 
+# Usage
+
+```
+yarn start
+```
+
 # inspirations
 
 https://hackernoon.com/using-babel-7-with-node-7e401bc28b04
